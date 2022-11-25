@@ -68,7 +68,7 @@
   letter-spacing: 0.1rem;
 }
 .content span,
-.dishes span {
+.dishes span, .about span {
   color: #27ae60;
   text-transform: capitalize;
   font-weight: bold;
@@ -76,7 +76,7 @@
 .content span {
   font-size: 1.5rem;
 }
-.dishes span {
+.dishes span,.about span {
   font-size: 1.2rem;
 }
 
@@ -93,18 +93,22 @@
   padding: 0.5rem 0;
   line-height: 1.5;
 }
-.dishes {
+.dishes, .about{
   text-align: center;
   margin: 1.5rem 0;
 }
-.dishes h4 {
+.dishes h4, .about h4 {
   /* text-transform: capitalize; */
   color: #192a56;
   font-weight: bold;
   font-size: 1.5rem;
 }
-.dishes-section {
+.dishes-section{
   background-color: #eee;
+  padding: 2rem 12rem;
+}
+.about-section{
+  /* background-color: #eee; */
   padding: 2rem 12rem;
 }
 .price {
@@ -117,23 +121,39 @@
   border: none;
   outline: none;
 }
-.dish-item .btn:hover{
+.dish-item .btn:hover {
   background-color: #27ae60;
   color: white;
   transform: scale(1.1);
 }
-.star-icons{
+.star-icons {
   color: #192a56;
-  margin-bottom: 1rem;
-
+  margin-bottom: 1rem 
 }
-.card{
+.card {
   width: 20rem;
+  border: none!important;
 }
-.dish-title{
+.dish-title {
   display: flex;
   justify-content: center;
-  
+
   margin-bottom: 1rem !important;
 }
+.about-img{
+  width: 30rem;
+  height: 25rem;
+}
+.about-content{
+  text-align: justify;
+}
+.about-content h3{
+  color: #192a56;
+  text-transform: capitalize;
+}
+/* .fast-services-icons{
 
+} */
+.about-content p{
+  color: #666;
+}
