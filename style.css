@@ -44,14 +44,14 @@
   color: #192a56;
   border-radius: 50%;
   text-align: center;
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin-left: 10px;
 }
 .icons a:hover {
   color: #27ae60;
 }
 .content .btn {
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   display: inline-block;
   font-size: 1.2rem;
   color: #fff;
@@ -67,22 +67,73 @@
   background: #27ae60;
   letter-spacing: 0.1rem;
 }
-.content span {
+.content span,
+.dishes span {
   color: #27ae60;
-  font-size: 1.5rem;
   text-transform: capitalize;
+  font-weight: bold;
+}
+.content span {
+  font-size: 1.5rem;
+}
+.dishes span {
+  font-size: 1.2rem;
 }
 
 .content h1 {
   text-transform: capitalize;
   color: #192a56;
   font-weight: bold;
-  /* font-size: 5rem; */
+  font-size: 3rem;
 }
 
 .content p {
   color: #666;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0.5rem 0;
   line-height: 1.5;
 }
+.dishes {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.dishes h4 {
+  /* text-transform: capitalize; */
+  color: #192a56;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.dishes-section {
+  background-color: #eee;
+  padding: 2rem 12rem;
+}
+.price {
+  color: #27ae60;
+  font-size: 1.2rem;
+}
+.dish-item .btn {
+  background-color: #192a56;
+  color: white;
+  border: none;
+  outline: none;
+}
+.dish-item .btn:hover{
+  background-color: #27ae60;
+  color: white;
+  transform: scale(1.1);
+}
+.star-icons{
+  color: #192a56;
+  margin-bottom: 1rem;
+
+}
+.card{
+  width: 20rem;
+}
+.dish-title{
+  display: flex;
+  justify-content: center;
+  
+  margin-bottom: 1rem !important;
+}
+
